@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+html { 
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://source.unsplash.com/collection/317099/1920x1080") no-repeat center center fixed;
+    background-size: cover;
+}
+
+a, a:hover, a:active, a:visited { 
+    color:white;
+}
+
+a:hover {
+    font-weight: 600;
+}
+
+q#quote {
+    font-size: clamp(2rem, 3.5vw, 4rem); 
+}
+
+p#author {
+    font-size: 1.5rem;
+}
+
+.display-middle{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.display-bottomleft {
+	position: absolute;
+	bottom: 0.7em;
+	left: 2em;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-color-white {
+    color: white;
+}
+
+.sans-serif {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 450px) {
+    .hide-mobile {
+        display: none;
+    }
+}
